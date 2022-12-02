@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="app.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+
+     </div>
+<div class="container">
+       <h2>Now playing</h2>
+       <div class="circle"></div>
+    <div class="song">
+        <h1 class="song_name"></h1>
+        <p class="singer"></p>
+    </div>
+    
+       <input onchange="changing()" type="range" class="range" value="0" >
+   
+
+    <div class="tools">
+        <div onclick="pre()"  class="previous"><i class="fa-solid fa-arrow-left"></i></div>
+        <div onclick="pausing()"   class="pause"><i class="fa-solid fa-play"></i></div>
+        <div onclick="Next()" class="next"><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+</div>
+
+<div class="all" style="display: none;"></div>
+<script src="https://kit.fontawesome.com/1119374847.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+
+    
+
+
+</html>
